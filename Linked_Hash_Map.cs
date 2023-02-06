@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,8 @@ namespace HashTableAssignment
     {
         private readonly int Num_Buckets;
         readonly List<Linked_List<K, V>> Bucket_List;
+        public StringBuilder Result;
+
 
         public Linked_Hash_Map(int Num_Buckets)
         {
